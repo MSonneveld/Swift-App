@@ -3,7 +3,7 @@
 //  Swift app
 //
 //  Created by Mickey Sonneveld on 09/11/16.
-//  Copyright © 2016 Mickey Sonneveld. All rights reserved.
+//  Copyright © 2016 Mickey Sonneveld. All rights reserved.....
 //
 
 import UIKit
