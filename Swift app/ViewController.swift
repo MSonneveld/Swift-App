@@ -9,26 +9,39 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var textOne: UITextField!
     @IBOutlet weak var textTwo: UITextField!
-        @IBOutlet weak var theLabel: UILabel!
+    @IBOutlet weak var theLabel: UILabel!
     
     @IBAction func buttonTapped(_ sender: Any) {
-        theLabel.text = "Answer: \(Double(textOne.text!)! + Double(textTwo.text!)!)"
+        
+        let addition = false
+        
+        if addition {
+            theLabel.text = "Answer: \(Double(textOne.text!)! + Double(textTwo.text!)!)"
+        }
+        else {
+            
+            theLabel.text = "Answer: \(Double(textOne.text!)! - Double(textTwo.text!)!)"
+        }
+        
+        
     }
-
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 
